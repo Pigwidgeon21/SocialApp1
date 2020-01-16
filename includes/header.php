@@ -49,7 +49,7 @@ else {
 	<div class="top_bar"> 
 
 		<div class="logo">
-			<a href="index.php">SocialApp</a>
+			<a href="index.php">SocialFarm</a>
 		</div>
 
 		<div class="search">

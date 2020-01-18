@@ -1,4 +1,6 @@
 <?php  
+session_start();
+
 require 'config/config.php';
 include("includes/classes/User.php");
 include("includes/classes/Post.php");
@@ -19,7 +21,8 @@ else {
 
 <html>
 <head>
-	<title>SocialApp</title>
+	<title>Social Farm</title>
+	<link rel="icon" href="assets/images/icons/chicken.jpg">
 
 	<!-- Javascript -->
 	
@@ -27,7 +30,7 @@ else {
 	<script src="assets/js/bootstrap.js"></script>
 	<script src="assets/js/bootbox.min.js"></script>
 	<script src="assets/js/socialApp.js"></script>
-	<script src="assets/js/jquery.jcrop.js"></script>
+	<script src="assets/js/jquery.Jcrop.js"></script>
 	<script src="assets/js/jcrop_bits.js"></script>
 
 	<script>

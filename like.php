@@ -21,6 +21,9 @@
 	</style>
 
 	<?php  
+	session_start();
+
+
 	require 'config/config.php';
 	include("includes/classes/User.php");
 	include("includes/classes/Post.php");
